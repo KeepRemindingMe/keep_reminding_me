@@ -2,8 +2,14 @@
 <html>
     <head>
         <title>
+            {% block title %} BLOCK TITLE GOES HERE {% endblock %}
         </title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
     </head>
     <body>
+
+        {% block content %} BLOCK CONTENT HERE {% endblock %}
+
+
     </body>
 </html>
